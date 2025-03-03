@@ -58,24 +58,3 @@ To make everything more accessible we even integrated a simple theme switcher to
 We've also added the [react-hot-toast](https://react-hot-toast.com/) library for that extra flare when it comes to visual feedback for the on-chain actions.
 
 https://user-images.githubusercontent.com/38172/212745502-628238cd-311c-436c-b669-76285fa5769b.mp4
-
-## Getting Started
-
-1. Get an API key from [Helius](https://helius.xyz/). We'll need this to be able to fetch wallet details.
-2. Run `npx create-next-app -e https://github.com/aeminium-labs/nextjs-solana-starter-kit` to get this template into your local environment (can also click on the "Use this template" button or just fork this repository)
-3. Add a `.env.local` file with your Helius API key
-
-```
-HELIUS_API_KEY=<your key>
-```
-
-4. Run `npm run dev` to start dev server
-5. Make changes and have fun!
-
-## Deploying
-
-1. Run `npm run build` locally to make sure everything is compiling correctly
-2. Link your favourite server provider to your repository (using Vercel for the demo)
-3. Any push to `main` branch should automatically deploy a new version
-
-> _This starter kit was only possible because of the amazing [Create dApp Solana Next](https://github.com/thuglabs/create-dapp-solana-nextjs) template, which served as a base for everything else in here._
